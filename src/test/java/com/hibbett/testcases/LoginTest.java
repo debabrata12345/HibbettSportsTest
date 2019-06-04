@@ -17,13 +17,13 @@ public class LoginTest extends Base {
 		super();
 	}
 
-	@BeforeMethod()//alwaysRun = true)
+	@BeforeMethod() // alwaysRun = true)
 	public void setUp() throws InterruptedException {
 		initialization();
 		loginPage = new LoginPage();
 	}
 
-	@Test(priority = 0, groups = { "regression", "smoke" }, description = TestCaseName.testcase1)
+	@Test(priority = 0, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE1)
 	public void enterIntoLogin() {
 		loginPage.enterLoginScrn();
 		boolean flag = loginPage.validateLoginLogo();
@@ -32,11 +32,19 @@ public class LoginTest extends Base {
 
 	}
 
-	@Test(priority = 1, groups ={"regression", "smoke" }, description = TestCaseName.testcase2)
+	@Test(priority = 1, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE2)
+	public void inValidLoginTest() {
+		loginPage.enterLoginScrn();
+		shopPage = loginPage.doLogin(prop.getProperty("iuid"), prop.getProperty("ipwd"));
+		Assert.assertEquals("HTTP: 401 - There was an error logging this user in", loginPage.getSnackBarText());
+
+	}
+
+	@Test(priority = 2, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE3)
 	public void login() {
 		loginPage.enterLoginScrn();
 		shopPage = loginPage.doLogin(prop.getProperty("uid"), prop.getProperty("pwd"));
-		//System.out.println(shopPage.HibbettTitle.getAttribute("name"));
+		// System.out.println(shopPage.HibbettTitle.getAttribute("name"));
 		Assert.assertEquals("Hibbett", shopPage.HibbettTitle.getAttribute("name"));
 		System.out.println("Successful Login is Done");
 	}

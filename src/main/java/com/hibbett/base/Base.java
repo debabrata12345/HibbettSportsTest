@@ -53,7 +53,7 @@ public class Base{
 		} catch (MalformedURLException e) {
 			System.out.println("Exception on Connection is: "+ e);
 		}
-		System.out.println("DriverIntialized at");
+		System.out.println("DriverIntialized at"+prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub");
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 
 	}
