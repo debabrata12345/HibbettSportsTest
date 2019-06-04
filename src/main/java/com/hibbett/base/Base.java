@@ -16,15 +16,16 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
-public class Base{
+public class Base {
 
 	public static AppiumDriver<MobileElement> driver;
 	public static Properties prop;
-    public static DesiredCapabilities caps;
+	public static DesiredCapabilities caps;
+
 	public Base() {
 		try {
 			prop = new Properties();
-			File fl= new File("/Users/debabratabaidya/Documents/workspace/HibbettSportsTest/"
+			File fl = new File("/Users/debabratabaidya/Documents/workspace/HibbettSportsTest/"
 					+ "src/main/java/com/hibbett/config/hibbettconfig.properties");
 			FileInputStream ip = new FileInputStream(fl);
 			prop.load(ip);
@@ -44,16 +45,16 @@ public class Base{
 		caps.setCapability("appPackage", prop.getProperty("appPackage"));
 		caps.setCapability("appActivity", prop.getProperty("appActivity"));
 		caps.setCapability("noReset", prop.getProperty("noReset"));
-		//caps.setCapability("fullReset", prop.getProperty("fullReset"));
-		System.out.println("Listening on URL: "+prop.getProperty("url") + ":" + 
-		prop.getProperty("port") + "/wd/hub");
+		// caps.setCapability("fullReset", prop.getProperty("fullReset"));
+		System.out.println("Listening on URL: " + prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub");
 		try {
 			driver = new AndroidDriver<MobileElement>(
 					new URL(prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub"), caps);
 		} catch (MalformedURLException e) {
-			System.out.println("Exception on Connection is: "+ e);
+			System.out.println("Exception on Connection is: " + e);
 		}
-		System.out.println("DriverIntialized at"+prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub");
+		System.out.println(
+				"DriverIntialized at: " + prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub");
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 
 	}

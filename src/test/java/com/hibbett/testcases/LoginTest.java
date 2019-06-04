@@ -33,6 +33,17 @@ public class LoginTest extends Base {
 	}
 
 	@Test(priority = 1, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE2)
+	public void reqCheck() {
+		loginPage.enterLoginScrn();
+		loginPage.clickLogin();
+		String[] ar2 = loginPage.reqvalidation();
+		for (String str : ar2) {
+			Assert.assertEquals(str, "Required");
+		}
+
+	}
+
+	@Test(priority = 2, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE3)
 	public void inValidLoginTest() {
 		loginPage.enterLoginScrn();
 		shopPage = loginPage.doLogin(prop.getProperty("iuid"), prop.getProperty("ipwd"));
@@ -40,7 +51,7 @@ public class LoginTest extends Base {
 
 	}
 
-	@Test(priority = 2, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE3)
+	@Test(priority = 3, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE4)
 	public void login() {
 		loginPage.enterLoginScrn();
 		shopPage = loginPage.doLogin(prop.getProperty("uid"), prop.getProperty("pwd"));

@@ -5,10 +5,9 @@
     <classes>
       <class name="com.hibbett.testcases.LoginTest">
         <methods>
-          <include name="login"/>
-          <include name="enterIntoLogin"/>
           <include name="setUp"/>
           <include name="afterMethod"/>
+          <include name="inValidLoginTest"/>
         </methods>
       </class> <!-- com.hibbett.testcases.LoginTest -->
     </classes>
