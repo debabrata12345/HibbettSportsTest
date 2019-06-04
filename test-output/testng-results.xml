@@ -1,59 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105016" started-at="2019-06-04T13:19:40Z" finished-at="2019-06-04T13:21:25Z">
+  <suite name="Regression Suite" duration-ms="132475" started-at="2019-06-04T14:49:31Z" finished-at="2019-06-04T14:51:43Z">
     <groups>
       <group name="regression">
-        <method signature="LoginTest.enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="enterIntoLogin" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.inValidLoginTest()[pri:1, instance:com.hibbett.testcases.LoginTest@731a74c]" name="inValidLoginTest" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.login()[pri:2, instance:com.hibbett.testcases.LoginTest@731a74c]" name="login" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="enterIntoLogin" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.inValidLoginTest()[pri:2, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="inValidLoginTest" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.login()[pri:3, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="login" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.reqCheck()[pri:1, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="reqCheck" class="com.hibbett.testcases.LoginTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="LoginTest.enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="enterIntoLogin" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.inValidLoginTest()[pri:1, instance:com.hibbett.testcases.LoginTest@731a74c]" name="inValidLoginTest" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.login()[pri:2, instance:com.hibbett.testcases.LoginTest@731a74c]" name="login" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="enterIntoLogin" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.inValidLoginTest()[pri:2, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="inValidLoginTest" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.login()[pri:3, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="login" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="LoginTest.reqCheck()[pri:1, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="reqCheck" class="com.hibbett.testcases.LoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="105016" started-at="2019-06-04T13:19:40Z" finished-at="2019-06-04T13:21:25Z">
+    <test name="TestOnAndroidPhoneMotoG5+" duration-ms="132475" started-at="2019-06-04T14:49:31Z" finished-at="2019-06-04T14:51:43Z">
       <class name="com.hibbett.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="14214" started-at="2019-06-04T13:19:40Z" finished-at="2019-06-04T13:19:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="setUp" is-config="true" duration-ms="13443" started-at="2019-06-04T14:49:31Z" finished-at="2019-06-04T14:49:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="enterIntoLogin" duration-ms="3535" started-at="2019-06-04T13:19:54Z" description="To validate Login button of Landing screen is opening the Login screen" finished-at="2019-06-04T13:19:58Z">
+        <test-method status="PASS" signature="enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="enterIntoLogin" duration-ms="3685" started-at="2019-06-04T14:49:44Z" description="To validate Login button of Landing screen is opening the Login screen" finished-at="2019-06-04T14:49:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterIntoLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="afterMethod" is-config="true" duration-ms="8244" started-at="2019-06-04T13:19:58Z" finished-at="2019-06-04T13:20:06Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="6611" started-at="2019-06-04T14:49:48Z" finished-at="2019-06-04T14:49:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="13375" started-at="2019-06-04T13:20:06Z" finished-at="2019-06-04T13:20:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="setUp" is-config="true" duration-ms="13224" started-at="2019-06-04T14:49:55Z" finished-at="2019-06-04T14:50:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="inValidLoginTest()[pri:1, instance:com.hibbett.testcases.LoginTest@731a74c]" name="inValidLoginTest" duration-ms="19080" started-at="2019-06-04T13:20:19Z" description="To Validate invalid Login validation" finished-at="2019-06-04T13:20:38Z">
+        <test-method status="PASS" signature="reqCheck()[pri:1, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="reqCheck" duration-ms="4611" started-at="2019-06-04T14:50:08Z" description="To Validate that email and password is required field" finished-at="2019-06-04T14:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reqCheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="8559" started-at="2019-06-04T14:50:12Z" finished-at="2019-06-04T14:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="setUp" is-config="true" duration-ms="13318" started-at="2019-06-04T14:50:21Z" finished-at="2019-06-04T14:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inValidLoginTest()[pri:2, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="inValidLoginTest" duration-ms="19330" started-at="2019-06-04T14:50:34Z" description="To Validate invalid Login validation" finished-at="2019-06-04T14:50:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="afterMethod" is-config="true" duration-ms="6279" started-at="2019-06-04T13:20:38Z" finished-at="2019-06-04T13:20:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="6768" started-at="2019-06-04T14:50:54Z" finished-at="2019-06-04T14:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="13208" started-at="2019-06-04T13:20:45Z" finished-at="2019-06-04T13:20:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="setUp" is-config="true" duration-ms="13253" started-at="2019-06-04T14:51:00Z" finished-at="2019-06-04T14:51:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.hibbett.testcases.LoginTest@731a74c]" name="login" duration-ms="20140" started-at="2019-06-04T13:20:58Z" description="To validate Login functionality with valid login" finished-at="2019-06-04T13:21:18Z">
+        <test-method status="PASS" signature="login()[pri:3, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="login" duration-ms="21081" started-at="2019-06-04T14:51:14Z" description="To validate Login functionality with valid login" finished-at="2019-06-04T14:51:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="afterMethod" is-config="true" duration-ms="6894" started-at="2019-06-04T13:21:18Z" finished-at="2019-06-04T13:21:25Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@6ddf90b0]" name="afterMethod" is-config="true" duration-ms="8558" started-at="2019-06-04T14:51:35Z" finished-at="2019-06-04T14:51:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.hibbett.testcases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestOnAndroidPhoneMotoG5+ -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
