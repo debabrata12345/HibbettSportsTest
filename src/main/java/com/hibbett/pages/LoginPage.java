@@ -14,15 +14,15 @@ public class LoginPage extends Base {
 
 	@CacheLookup
 	@AndroidFindBy(xpath = "(//android.widget.Button[@text='LOG IN'])")
-	private AndroidElement lgnbtn;
+	private AndroidElement lgnBtn;
 
 	@CacheLookup
 	@AndroidFindBy(xpath = "(//android.widget.TextView[@text='LOG IN'])")
-	private AndroidElement lgntitlelogo;
+	private AndroidElement lgnTitleLogo;
 
 	@CacheLookup
 	@AndroidFindBy(id = "com.hibbett.android.corndog:id/email")
-	private AndroidElement uname;
+	private AndroidElement uName;
 
 	@CacheLookup
 	@AndroidFindBy(id = "com.hibbett.android.corndog:id/password")
@@ -33,37 +33,37 @@ public class LoginPage extends Base {
 	private AndroidElement snackbarText;
 	@CacheLookup
 	@AndroidFindBy(xpath = "(//android.widget.Button[@text='LOG IN'])")
-	private AndroidElement lgnbtn1;
+	private AndroidElement lgnBtn1;
 
 	@CacheLookup
 	@AndroidFindBy(xpath = "(//android.widget.TextView[@instance='3'])")
-	private AndroidElement emailreqvalidation;
+	private AndroidElement emailReqValidation;
 	@CacheLookup
 	@AndroidFindBy(xpath = "(//android.widget.TextView[@instance='4'])")
-	private AndroidElement pwdreqvalidation;
+	private AndroidElement pwdReqValidation;
 
 	public void enterLoginScrn() {
-		lgnbtn.click();
+		lgnBtn.click();
 
 	}
 
 	public boolean validateLoginLogo() {
-		return lgntitlelogo.isDisplayed();
+		return lgnTitleLogo.isDisplayed();
 	}
 
 	public ShopPage doLogin(String username, String password) {
-		uname.sendKeys(username);
+		uName.sendKeys(username);
 		pwd.sendKeys(password);
 		driver.hideKeyboard();
-		lgnbtn1.click();
+		lgnBtn1.click();
 		return new ShopPage();
 	}
 
 	public void invalidLoginTest(String username, String password) {
-		uname.sendKeys(username);
+		uName.sendKeys(username);
 		pwd.sendKeys(password);
 		driver.hideKeyboard();
-		lgnbtn1.click();
+		lgnBtn1.click();
 	}
 
 	public String getSnackBarText() {
@@ -72,11 +72,11 @@ public class LoginPage extends Base {
 	}
 
 	public String[] reqvalidation() {
-		String[] ar1 = { emailreqvalidation.getText(), pwdreqvalidation.getText() };
+		String[] ar1 = { emailReqValidation.getText(), pwdReqValidation.getText() };
 		return ar1;
 	}
 
 	public void clickLogin() {
-		lgnbtn1.click();
+		lgnBtn1.click();
 	}
 }

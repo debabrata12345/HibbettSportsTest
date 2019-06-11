@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
-  <listeners>
-    <listener class-name="com.hibbett.util.retryListener"/>
-  </listeners>
-  <test thread-count="5" name="TestOnAndroidPhoneMotoG5+(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hibbett.util.firstclass">
+      <class name="com.hibbett.testcases.LoginTest">
         <methods>
-          <include name="printingSecondLine"/>
+          <include name="reqCheck"/>
+          <include name="login"/>
+          <include name="enterIntoLogin"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="inValidLoginTest"/>
         </methods>
-      </class> <!-- com.hibbett.util.firstclass -->
+      </class> <!-- com.hibbett.testcases.LoginTest -->
     </classes>
-  </test> <!-- TestOnAndroidPhoneMotoG5+(failed) -->
-</suite> <!-- Failed suite [Regression Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
