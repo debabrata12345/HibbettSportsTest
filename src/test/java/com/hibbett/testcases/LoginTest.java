@@ -5,6 +5,8 @@ import com.hibbett.base.Base;
 import com.hibbett.base.TestCaseName;
 import com.hibbett.pages.LoginPage;
 import com.hibbett.pages.ShopPage;
+import com.relevantcodes.extentreports.ExtentReports;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -12,18 +14,18 @@ import org.testng.annotations.BeforeMethod;
 public class LoginTest extends Base {
 	LoginPage loginPage;
 	ShopPage shopPage;
-
 	public LoginTest() {
 		super();
 	}
 
-	@BeforeMethod() // alwaysRun = true)
+	@BeforeMethod(alwaysRun = true)
 	public void setUp() throws InterruptedException {
 		initialization();
 		loginPage = new LoginPage();
 	}
 
 	@Test(priority = 0, groups = { "regression", "smoke" }, description = TestCaseName.TESTCASE1)
+	
 	public void enterIntoLogin() {
 		loginPage.enterLoginScrn();
 		boolean flag = loginPage.validateLoginLogo();
@@ -36,7 +38,7 @@ public class LoginTest extends Base {
 	public void reqCheck() {
 		loginPage.enterLoginScrn();
 		loginPage.clickLogin();
-		String[] ar2 = loginPage.reqvalidation();
+		String[] ar2 = loginPage.reqValidation();
 		for (String str : ar2) {
 			Assert.assertEquals(str, "Required");
 		}
@@ -60,8 +62,8 @@ public class LoginTest extends Base {
 		System.out.println("Successful Login is Done");
 	}
 
-	@AfterMethod
-	public void afterMethod() {
+	@AfterMethod(alwaysRun = true)
+	public void tearDown() {
 		driver.resetApp();
 	}
 }

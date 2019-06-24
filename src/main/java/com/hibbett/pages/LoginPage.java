@@ -71,7 +71,7 @@ public class LoginPage extends Base {
 		return snackbarText.getText();
 	}
 
-	public String[] reqvalidation() {
+	public String[] reqValidation() {
 		String[] ar1 = { emailReqValidation.getText(), pwdReqValidation.getText() };
 		return ar1;
 	}

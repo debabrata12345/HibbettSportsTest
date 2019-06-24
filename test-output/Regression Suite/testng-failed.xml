@@ -4,13 +4,21 @@
   <listeners>
     <listener class-name="com.hibbett.util.retryListener"/>
   </listeners>
-  <test thread-count="5" name="TestOnAndroidPhoneMotoG5+(failed)">
+  <test thread-count="5" name="TestOnAndroid(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <exclude name="test"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.hibbett.util.firstclass">
+      <class name="com.hibbett.testcases.LoginTest">
         <methods>
-          <include name="printingSecondLine"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.hibbett.util.firstclass -->
+      </class> <!-- com.hibbett.testcases.LoginTest -->
     </classes>
-  </test> <!-- TestOnAndroidPhoneMotoG5+(failed) -->
+  </test> <!-- TestOnAndroid(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

@@ -23,6 +23,24 @@
     <artifactId>selenium-java</artifactId>
     <version>3.141.59</version>
 </dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.0.9</version>
+</dependency>
+
+
+
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 
 <dependency>

@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  TestOnAndroid</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestOnAndroid</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 11 19:33:25 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>175 seconds (175971 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td>test </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.hibbett.testcases.SignUpTest.SignUp()'><b>SignUp</b><br>Test class: com.hibbett.testcases.SignUpTest<br>Test method: To validate signup feature with valid credential</td>
+<td></td>
+<td>50</td>
+<td>com.hibbett.testcases.SignUpTest@3dd4520b</td></tr>
+<tr>
+<td title='com.hibbett.testcases.LoginTest.enterIntoLogin()'><b>enterIntoLogin</b><br>Test class: com.hibbett.testcases.LoginTest<br>Test method: To validate Login button of Landing screen is opening the Login screen</td>
+<td></td>
+<td>3</td>
+<td>com.hibbett.testcases.LoginTest@23e028a9</td></tr>
+<tr>
+<td title='com.hibbett.testcases.SignUpTest.enterIntoSignUpScrn()'><b>enterIntoSignUpScrn</b><br>Test class: com.hibbett.testcases.SignUpTest<br>Test method: To validate SignUp button of Landing screen is opening the Signup screen</td>
+<td></td>
+<td>4</td>
+<td>com.hibbett.testcases.SignUpTest@3dd4520b</td></tr>
+<tr>
+<td title='com.hibbett.testcases.SignUpTest.fieldValidationCheck()'><b>fieldValidationCheck</b><br>Test class: com.hibbett.testcases.SignUpTest<br>Test method: To validate mandatory field validations present on the Signup form</td>
+<td></td>
+<td>5</td>
+<td>com.hibbett.testcases.SignUpTest@3dd4520b</td></tr>
+<tr>
+<td title='com.hibbett.testcases.SignUpTest.getIntoLoginScrn()'><b>getIntoLoginScrn</b><br>Test class: com.hibbett.testcases.SignUpTest<br>Test method: To validate Login button present in SignUp screen is opening the Login screen</td>
+<td></td>
+<td>7</td>
+<td>com.hibbett.testcases.SignUpTest@3dd4520b</td></tr>
+<tr>
+<td title='com.hibbett.testcases.LoginTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: com.hibbett.testcases.LoginTest<br>Test method: To validate invalid Login validation</td>
+<td></td>
+<td>20</td>
+<td>com.hibbett.testcases.LoginTest@23e028a9</td></tr>
+<tr>
+<td title='com.hibbett.testcases.LoginTest.login()'><b>login</b><br>Test class: com.hibbett.testcases.LoginTest<br>Test method: To validate Login functionality with valid login</td>
+<td></td>
+<td>22</td>
+<td>com.hibbett.testcases.LoginTest@23e028a9</td></tr>
+<tr>
+<td title='com.hibbett.testcases.LoginTest.reqCheck()'><b>reqCheck</b><br>Test class: com.hibbett.testcases.LoginTest<br>Test method: To validate that email and password is required field</td>
+<td></td>
+<td>5</td>
+<td>com.hibbett.testcases.LoginTest@23e028a9</td></tr>
+</table><p>
+</body>
+</html>

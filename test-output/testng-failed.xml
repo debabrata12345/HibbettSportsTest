@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hibbett.testcases.LoginTest">
+      <class name="com.hibbett.testcases.Ac_AboutUsTest">
         <methods>
-          <include name="reqCheck"/>
-          <include name="login"/>
-          <include name="enterIntoLogin"/>
           <include name="setUp"/>
           <include name="afterMethod"/>
-          <include name="inValidLoginTest"/>
+          <include name="validateCaliforniaDisclosures"/>
         </methods>
-      </class> <!-- com.hibbett.testcases.LoginTest -->
+      </class> <!-- com.hibbett.testcases.Ac_AboutUsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

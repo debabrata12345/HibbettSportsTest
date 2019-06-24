@@ -1,73 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88395" started-at="2019-06-10T09:50:18Z" finished-at="2019-06-10T09:51:47Z">
+  <suite name="Default suite" duration-ms="254644" started-at="2019-06-24T10:40:10Z" finished-at="2019-06-24T10:44:24Z">
     <groups>
       <group name="regression">
-        <method signature="LoginTest.enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="enterIntoLogin" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.inValidLoginTest()[pri:2, instance:com.hibbett.testcases.LoginTest@731a74c]" name="inValidLoginTest" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.login()[pri:3, instance:com.hibbett.testcases.LoginTest@731a74c]" name="login" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.reqCheck()[pri:1, instance:com.hibbett.testcases.LoginTest@731a74c]" name="reqCheck" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="Ac_AboutUsTest.validateAccessibility()[pri:15, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateAccessibility" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateCaliforniaDisclosures()[pri:16, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateCaliforniaDisclosures" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateCareers()[pri:20, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateCareers" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateHibbettUniversity()[pri:23, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateHibbettUniversity" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateInvestorRelations()[pri:21, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateInvestorRelations" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateOpenSourceLicense()[pri:14, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateOpenSourceLicense" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateOurStory()[pri:24, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateOurStory" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validatePhilanthropy()[pri:22, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validatePhilanthropy" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validatePrivacyPolicy()[pri:18, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validatePrivacyPolicy" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateRaffleTermsAndCondition()[pri:19, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateRaffleTermsAndCondition" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateTermsOfUse()[pri:17, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateTermsOfUse" class="com.hibbett.testcases.Ac_AboutUsTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="LoginTest.enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="enterIntoLogin" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.inValidLoginTest()[pri:2, instance:com.hibbett.testcases.LoginTest@731a74c]" name="inValidLoginTest" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.login()[pri:3, instance:com.hibbett.testcases.LoginTest@731a74c]" name="login" class="com.hibbett.testcases.LoginTest"/>
-        <method signature="LoginTest.reqCheck()[pri:1, instance:com.hibbett.testcases.LoginTest@731a74c]" name="reqCheck" class="com.hibbett.testcases.LoginTest"/>
+        <method signature="Ac_AboutUsTest.validateAccessibility()[pri:15, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateAccessibility" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateCaliforniaDisclosures()[pri:16, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateCaliforniaDisclosures" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateCareers()[pri:20, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateCareers" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateHibbettUniversity()[pri:23, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateHibbettUniversity" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateInvestorRelations()[pri:21, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateInvestorRelations" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateOpenSourceLicense()[pri:14, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateOpenSourceLicense" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateOurStory()[pri:24, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateOurStory" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validatePhilanthropy()[pri:22, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validatePhilanthropy" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validatePrivacyPolicy()[pri:18, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validatePrivacyPolicy" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateRaffleTermsAndCondition()[pri:19, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateRaffleTermsAndCondition" class="com.hibbett.testcases.Ac_AboutUsTest"/>
+        <method signature="Ac_AboutUsTest.validateTermsOfUse()[pri:17, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateTermsOfUse" class="com.hibbett.testcases.Ac_AboutUsTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="88395" started-at="2019-06-10T09:50:18Z" finished-at="2019-06-10T09:51:47Z">
-      <class name="com.hibbett.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="5612" started-at="2019-06-10T09:50:18Z" finished-at="2019-06-10T09:50:24Z">
+    <test name="Default test" duration-ms="254644" started-at="2019-06-24T10:40:10Z" finished-at="2019-06-24T10:44:24Z">
+      <class name="com.hibbett.testcases.Ac_AboutUsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="18164" started-at="2019-06-24T10:40:10Z" finished-at="2019-06-24T10:40:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="enterIntoLogin()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="enterIntoLogin" duration-ms="3789" started-at="2019-06-10T09:50:24Z" description="To validate Login button of Landing screen is opening the Login screen" finished-at="2019-06-10T09:50:28Z">
+        <test-method status="PASS" signature="validateOpenSourceLicense()[pri:14, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateOpenSourceLicense" duration-ms="4142" started-at="2019-06-24T10:40:28Z" description="To validate Open Source License option is opening Open Source Libraries page" finished-at="2019-06-24T10:40:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterIntoLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="afterMethod" is-config="true" duration-ms="3880" started-at="2019-06-10T09:50:28Z" finished-at="2019-06-10T09:50:32Z">
+        </test-method> <!-- validateOpenSourceLicense -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4317" started-at="2019-06-24T10:40:32Z" finished-at="2019-06-24T10:40:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="4618" started-at="2019-06-10T09:50:32Z" finished-at="2019-06-10T09:50:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="17089" started-at="2019-06-24T10:40:36Z" finished-at="2019-06-24T10:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="reqCheck()[pri:1, instance:com.hibbett.testcases.LoginTest@731a74c]" name="reqCheck" duration-ms="5314" started-at="2019-06-10T09:50:36Z" description="To Validate that email and password is required field" finished-at="2019-06-10T09:50:41Z">
+        <test-method status="PASS" signature="validateAccessibility()[pri:15, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateAccessibility" duration-ms="2756" started-at="2019-06-24T10:40:53Z" description="To validate Open Source License option is opening Accessibility page" finished-at="2019-06-24T10:40:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reqCheck -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="afterMethod" is-config="true" duration-ms="3087" started-at="2019-06-10T09:50:41Z" finished-at="2019-06-10T09:50:45Z">
+        </test-method> <!-- validateAccessibility -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4340" started-at="2019-06-24T10:40:56Z" finished-at="2019-06-24T10:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="4615" started-at="2019-06-10T09:50:45Z" finished-at="2019-06-10T09:50:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="17569" started-at="2019-06-24T10:41:00Z" finished-at="2019-06-24T10:41:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="inValidLoginTest()[pri:2, instance:com.hibbett.testcases.LoginTest@731a74c]" name="inValidLoginTest" duration-ms="22333" started-at="2019-06-10T09:50:49Z" description="To Validate invalid Login validation" finished-at="2019-06-10T09:51:11Z">
+        <test-method status="PASS" signature="validateCaliforniaDisclosures()[pri:16, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateCaliforniaDisclosures" duration-ms="1259" started-at="2019-06-24T10:41:18Z" description="To validate Open Source License option is opening California Disclosures page" finished-at="2019-06-24T10:41:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="afterMethod" is-config="true" duration-ms="2967" started-at="2019-06-10T09:51:11Z" finished-at="2019-06-10T09:51:14Z">
+        </test-method> <!-- validateCaliforniaDisclosures -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4333" started-at="2019-06-24T10:41:19Z" finished-at="2019-06-24T10:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="setUp" is-config="true" duration-ms="4473" started-at="2019-06-10T09:51:14Z" finished-at="2019-06-10T09:51:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="16908" started-at="2019-06-24T10:41:24Z" finished-at="2019-06-24T10:41:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:3, instance:com.hibbett.testcases.LoginTest@731a74c]" name="login" duration-ms="24688" started-at="2019-06-10T09:51:19Z" description="To validate Login functionality with valid login" finished-at="2019-06-10T09:51:44Z">
+        <test-method status="PASS" signature="validateTermsOfUse()[pri:17, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateTermsOfUse" duration-ms="1289" started-at="2019-06-24T10:41:40Z" description="To validate Open Source License option is opening Terms of use page" finished-at="2019-06-24T10:41:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.LoginTest@731a74c]" name="afterMethod" is-config="true" duration-ms="2985" started-at="2019-06-10T09:51:44Z" finished-at="2019-06-10T09:51:47Z">
+        </test-method> <!-- validateTermsOfUse -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4345" started-at="2019-06-24T10:41:42Z" finished-at="2019-06-24T10:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.hibbett.testcases.LoginTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="14901" started-at="2019-06-24T10:41:46Z" finished-at="2019-06-24T10:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePrivacyPolicy()[pri:18, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validatePrivacyPolicy" duration-ms="1490" started-at="2019-06-24T10:42:01Z" description="To validate Open Source License option is opening Privacy Policy page" finished-at="2019-06-24T10:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrivacyPolicy -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4348" started-at="2019-06-24T10:42:02Z" finished-at="2019-06-24T10:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="16987" started-at="2019-06-24T10:42:07Z" finished-at="2019-06-24T10:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateRaffleTermsAndCondition()[pri:19, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateRaffleTermsAndCondition" duration-ms="1252" started-at="2019-06-24T10:42:24Z" description="To validate Open Source License option is opening Raffle Terms and condition page" finished-at="2019-06-24T10:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRaffleTermsAndCondition -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4500" started-at="2019-06-24T10:42:25Z" finished-at="2019-06-24T10:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="17085" started-at="2019-06-24T10:42:30Z" finished-at="2019-06-24T10:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCareers()[pri:20, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateCareers" duration-ms="1267" started-at="2019-06-24T10:42:47Z" description="To validate Open Source License option is opening Careers page" finished-at="2019-06-24T10:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCareers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4513" started-at="2019-06-24T10:42:48Z" finished-at="2019-06-24T10:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="17122" started-at="2019-06-24T10:42:52Z" finished-at="2019-06-24T10:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvestorRelations()[pri:21, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateInvestorRelations" duration-ms="1272" started-at="2019-06-24T10:43:10Z" description="To validate Open Source License option is opening Investor Relations page" finished-at="2019-06-24T10:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvestorRelations -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4603" started-at="2019-06-24T10:43:11Z" finished-at="2019-06-24T10:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="17445" started-at="2019-06-24T10:43:15Z" finished-at="2019-06-24T10:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePhilanthropy()[pri:22, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validatePhilanthropy" duration-ms="1195" started-at="2019-06-24T10:43:33Z" description="To validate Open Source License option is opening Philanthropy page" finished-at="2019-06-24T10:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePhilanthropy -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4298" started-at="2019-06-24T10:43:34Z" finished-at="2019-06-24T10:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="17132" started-at="2019-06-24T10:43:38Z" finished-at="2019-06-24T10:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHibbettUniversity()[pri:23, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateHibbettUniversity" duration-ms="1369" started-at="2019-06-24T10:43:55Z" description="To validate Open Source License option is opening HibbettUniversity page" finished-at="2019-06-24T10:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHibbettUniversity -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4558" started-at="2019-06-24T10:43:57Z" finished-at="2019-06-24T10:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="setUp" is-config="true" duration-ms="17191" started-at="2019-06-24T10:44:01Z" finished-at="2019-06-24T10:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateOurStory()[pri:24, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="validateOurStory" duration-ms="1349" started-at="2019-06-24T10:44:19Z" description="To validate Open Source License option is opening OurStory page" finished-at="2019-06-24T10:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOurStory -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.hibbett.testcases.Ac_AboutUsTest@47ef968d]" name="afterMethod" is-config="true" duration-ms="4218" started-at="2019-06-24T10:44:20Z" finished-at="2019-06-24T10:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.hibbett.testcases.Ac_AboutUsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

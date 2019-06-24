@@ -11,6 +11,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.hibbett.util.TestUtil;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -29,6 +31,7 @@ public class Base {
 					+ "src/main/java/com/hibbett/config/hibbettconfig.properties");
 			FileInputStream ip = new FileInputStream(fl);
 			prop.load(ip);
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -46,7 +49,7 @@ public class Base {
 		caps.setCapability("appActivity", prop.getProperty("appActivity"));
 		caps.setCapability("noReset", prop.getProperty("noReset"));
 		// caps.setCapability("fullReset", prop.getProperty("fullReset"));
-		System.out.println("Listening on URL: " + prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub");
+		System.out.println("Listening at URL: " + prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub");
 		try {
 			driver = new AndroidDriver<MobileElement>(
 					new URL(prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub"), caps);
