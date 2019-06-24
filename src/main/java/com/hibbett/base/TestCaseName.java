@@ -19,16 +19,16 @@ public interface TestCaseName {
 //Account>AboutUs
 	
 	String TESTCASE101 ="To validate Open Source License option is opening Open Source Libraries page";
-	String TESTCASE102 ="To validate Open Source License option is opening Accessibility page";
-	String TESTCASE103 ="To validate Open Source License option is opening California Disclosures page";
-	String TESTCASE104 ="To validate Open Source License option is opening Terms of use page";
-	String TESTCASE105 ="To validate Open Source License option is opening Privacy Policy page";
-	String TESTCASE106 ="To validate Open Source License option is opening Raffle Terms and condition page";
-	String TESTCASE107 ="To validate Open Source License option is opening Careers page";
-	String TESTCASE108 ="To validate Open Source License option is opening Investor Relations page";
-	String TESTCASE109 ="To validate Open Source License option is opening Philanthropy page";
-	String TESTCASE110 ="To validate Open Source License option is opening HibbettUniversity page";
-	String TESTCASE111 ="To validate Open Source License option is opening OurStory page";
+	String TESTCASE102 ="To validate Accessibility option is opening Accessibility page";
+	String TESTCASE103 ="To validate California Disclosures option is opening California Disclosures page";
+	String TESTCASE104 ="To validate Terms Of Use option is opening Terms Of Use page";
+	String TESTCASE105 ="To validate Privacy Policy option is opening Privacy Policy page";
+	String TESTCASE106 ="To validate Raffle Terms and condition option is opening Raffle Terms and condition page";
+	String TESTCASE107 ="To validate Careers option is opening Careers page";
+	String TESTCASE108 ="To validate Investor Relations option is opening Investor Relations page";
+	String TESTCASE109 ="To validate Philanthropy option is opening Philanthropy page";
+	String TESTCASE110 ="To validate HibbettUniversity option is opening HibbettUniversity page";
+	String TESTCASE111 ="To validate OurStoryoption is opening OurStory page";
 	
 	
 	
