@@ -31,5 +31,21 @@ public interface TestCaseName {
 	String TESTCASE111 ="To validate OurStoryoption is opening OurStory page";
 	
 	
+//ShopTab	
+	String TESTCASE200 ="To validate SNEAKERS-NIKE-AIRFORCE1 promotional tile is opening correct page";
+	String TESTCASE201 ="To validate SNEAKERS-ADIDAS-SUPERSTAR promotional tile is opening correct page";
+	String TESTCASE203="To validate View All feature of Launch and Raffle section";
+	String TESTCASE204="To Validate all trending charts are displayed";
+	String TESTCASE205="To Validate navigating to PLP from any of the tile displayed";
+	String TESTCASE206="To validate store selection feature";
+	String TESTCASE207="To validate store specific categories are displayed when store checkbox is checked";
+	
+	
+	
+	
+	
+	
+	String TESTCASE301 ="To validate socks tile is opening socks plp screen";
+	
 	
 }

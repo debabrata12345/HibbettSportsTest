@@ -19,6 +19,7 @@
 			<class name="com.hibbett.testcases.LoginTest" />
 			<class name="com.hibbett.testcases.SignUpTest" />
 			<class name="com.hibbett.testcases.Ac_AboutUsTest" />
+			<class name="com.hibbett.testcases.ShopTest" />
 			<!-- <class name="com.hibbett.util.firstclass"/> -->
 		</classes>
 	</test> <!-- Test -->

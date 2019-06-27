@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hibbett.testcases.Ac_AboutUsTest">
+      <class name="com.hibbett.testcases.ShopTest">
         <methods>
           <include name="setUp"/>
           <include name="afterMethod"/>
-          <include name="validateCaliforniaDisclosures"/>
+          <include name="selectStoreValidation"/>
         </methods>
-      </class> <!-- com.hibbett.testcases.Ac_AboutUsTest -->
+      </class> <!-- com.hibbett.testcases.ShopTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

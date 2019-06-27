@@ -59,6 +59,8 @@ public class Base {
 		System.out.println(
 				"DriverIntialized at: " + prop.getProperty("url") + ":" + prop.getProperty("port") + "/wd/hub");
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		//driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+
 
 	}
 
