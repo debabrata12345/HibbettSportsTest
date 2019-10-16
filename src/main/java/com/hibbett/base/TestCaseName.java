@@ -40,12 +40,19 @@ public interface TestCaseName {
 	String TESTCASE206="To validate store selection feature";
 	String TESTCASE207="To validate store specific categories are displayed when store checkbox is checked";
 	
+//SMS_Tab
+	String TESTCASE300="To validate fresh launch, More Info button functionality";
+	String TESTCASE301="To valite the GET STARTED button functionality";
+	String TESTCASE302="To validate store setting feature";
+	String TESTCASE303="To validate store edit feature";
+	String TESTCASE304="To validate store specific categories are displayed when store checkbox is checked";
 	
 	
 	
 	
 	
-	String TESTCASE301 ="To validate socks tile is opening socks plp screen";
+	
+	String TESTCASE3301 ="To validate socks tile is opening socks plp screen";
 	
 	
 }

@@ -18,8 +18,19 @@ public class SmsPage extends Base {
 	private AndroidElement getStarted;
 
 	@CacheLookup
-	@AndroidFindBy(xpath = "(//android.widget.TextView[@text='More Info'])")
+	//@AndroidFindBy(xpath = "(//android.widget.TextView[@text='More Info'])")
+	@AndroidFindBy(id = "com.hibbett.android.corndog:id/tv_more_info")
 	private AndroidElement moreInfo;
+	
+	@CacheLookup
+	@AndroidFindBy(xpath = "(//android.widget.TextView[@text='SHOP A STORE'])")
+	private AndroidElement shopAStorePageTitle;
+	
+	@CacheLookup
+	
+	@AndroidFindBy(id = "back")
+	private AndroidElement closeButtonShop_A_StorePage;
+	
 
 	@CacheLookup
 	@AndroidFindBy(xpath = "(//android.widget.TextView[@text='Shop a Store'])")
@@ -32,5 +43,12 @@ public class SmsPage extends Base {
 	@CacheLookup
 	@AndroidFindBy(xpath = "(//android.widget.TextView[@text='Sports'])")
 	private AndroidElement sportsCategory;
+	
+	
+	public void tapOnMoreInfoButton(){
+		
+		
+	}
+	
 	
 }
